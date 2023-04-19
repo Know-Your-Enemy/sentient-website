@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+    padding-left: auto;
+    padding-right: auto;
+    margin: 5%;
+}
+
+h3 {
+    padding-bottom: 2%;
+    text-decoration: none;
+    background-color: black;
+    color: black;
+}
+
+a:hover {
+    color: darkorange;
+    opacity: 70%
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.parent {
+    border: 0px solid white;
+    width: 100vh;
+    height: 22vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.image-container {
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+
+.w3-container {
+    background-color: darkgrey;
+    width: 500px;
+    margin: 40px auto;
+    text-align: left;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin: auto;
+    padding: 5%;
+}
+
+button {
+    padding: 3px;
+    border-radius: 20px;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+    font-size: 16pt;
+    border-radius: 5pt;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    border-radius: 10pt;
+}
+
+.home-logo {
+    border: 0px solid white;
+    width: 60vh;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.image {
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+
+.spacer {
+    border: 0px solid white;
+    width: 500px;
+    height: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.affiliate-link {
+    display: block;
+    border: 1px solid white;
+    width: 60px;
+    height: 60px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.affiliate-column {
+    float: right;
+    width: 33.33%;
+    padding: 0px;
+}
+
+.affiliate-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.affiliate-row {
+    padding-top: 20px;
+}
+
+.video-container film-1 {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+
+film-1 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto
+}
